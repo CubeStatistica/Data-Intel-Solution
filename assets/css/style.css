@@ -11,10 +11,10 @@ body{
 	background-color: #f5f5f5 !important
 }
 .font{
-	font-family: 'Jost', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .pt-8{
-	padding-top: 8em !important;
+	padding-top: 5em !important;
 }
 .bg-black{
 	background: linear-gradient(to right, #28313b 0%, #485461 100%);
@@ -73,12 +73,14 @@ header .navbar li:hover{
 .py-10{
 	padding-top: 4em
 }
-.about{
 /*
+.about{
+
 	background:linear-gradient(to right, #28313b 0%, #485461 100%) ;
-*/
+
 
 }
+*/
 .a-img{
 	display: flex;
 	justify-content: center;
@@ -118,7 +120,7 @@ header .navbar li:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.services h4::after{
+.services h1::after{
 	content: '';
 	background: #3b5083;
 	display: block;
@@ -127,8 +129,8 @@ header .navbar li:hover{
     margin: 14px 6px;
 }
 .services h1{
-		padding-right: 2em
-
+		padding-right: 2em;
+		
 }
 .s-1{
 	border-radius: 5px;
@@ -256,10 +258,11 @@ header .navbar li:hover{
     border: 5px solid #3b5083;
     border-radius: 6px 30px 0px 30px;
 }
-*/
+
 }
+*/
 @media only screen and ( min-width:990px) and (max-width:1199px){
-	.founder-img::before{
+	/*.founder-img::before{
 	position: absolute;
     content: "";
     top: -55px;
@@ -268,7 +271,7 @@ header .navbar li:hover{
     bottom: 7rem;
     border: 5px solid #3b5083;
     border-radius: 6px 30px 0px 30px;
-	}
+	}*/
 	.navbar{
 		    margin-left: -26px;
 	}
@@ -280,7 +283,7 @@ header .navbar li:hover{
 .founder-social a{
 	color: white !important;
 	font-size: 24px;
-	padding: 10px
+	padding: 10px;
 }
 .founder-social a:hover{
     transform: translateY(-15px);
@@ -311,7 +314,8 @@ header .navbar li:hover{
 #contact-section .social-links a {
 	color: black !important;
 	font-size: 24px;
-	padding: 9px;
+	padding: 5px;
+	
 	
 }
 #contact-section .social-links a:hover {
