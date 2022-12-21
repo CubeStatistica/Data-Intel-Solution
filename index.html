@@ -3,13 +3,20 @@
 <head>
 <meta charset="utf-8">
 <title>Data Intel Solutions</title>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="John Doe">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+
 	<style>
 		body {
  			 font-family: 'Lato', sans-serif;
@@ -21,41 +28,39 @@
 	
 	<!-- ======= Start Header ======= -->
 	
-<header class="bg-black pt-2 position-sticky">	
+<header class="bg-black pt-2 fixed-top">	
 	<div class="container">
 		<div class="row ">
-			<div class="col-6 col-sm-6 col-md-6">
-				<img src="assets/img/logo.png" alt="" width="350" height="100">
-			</div>
-			<div class="col-6 col-sm-6 col-md-6">
-				<nav class="navbar navbar-expand-sm">
-				  <div class="contain6r-fluid"6
-					<button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			
+			<div class="">
+				<nav class="navbar navbar-expand-md navbar-light header-navbar">
+					<img class="header-img-2" src="assets/img/logo12.png" alt="" width="90" height="90">
+				  
+					<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mnav1">
 					  <span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="collapsibleNavbar">
-					  <ul class="navbar-nav">
-						<li class="nav-item">
-						  <a class="nav-link active" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#">About</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#">Services</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#">Courses</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#">Founder</a>
-						</li>
-						  <li class="nav-item">
-						  <a class="nav-link" href="#">Contact</a>
-						</li>  
-					  </ul>
+					<div class="collapse navbar-collapse" id="mnav1">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+							  <a class="nav-link active" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="#">About</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="#">Services</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="course.html">Courses</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" href="blogs.html">Blog</a>
+							</li>
+							  <li class="nav-item">
+							  <a class="nav-link" href="#">Contact</a>
+							</li>  
+						  </ul>
 					</div>
-				  </div>
 				</nav>
 			</div>
 		</div>
@@ -67,15 +72,15 @@
 	
 	<!-- ======= Start Banner ======= -->
 	
-<div class="banner">
+<div class="banner h-100 w-100">
 	
-	<p>Our services are defined by quality and commitment.</p>
-
-	<h1 class="display-5 fw-bolder">We are at the forefront of technology</h1>
-	<div class="About">
-		<p class="text_white">We strive to integrate tech-centred solutions into everyday life and make this planet a better place to live at!
-			We design transformational digital products and experiences that drive real business value and customer impact—so you can create innovative products faster and at scale.
-		</p>
+	<video autoplay muted loop id="myVideo" class="w-100">
+		<source src="assets/img/Digital - 55202.mp4" type="video/mp4">
+	</video>
+	<div class="container banner-content w-75">
+		<p class="h5">DESIGN DRIVEN INTELLIGENCE</p>
+		<h1 class="display-5 fw-bolder">EMBRACE THE POWER OF DATA DRIVEN DECISIONS.</h1>
+		
 	</div>
 	
 	
@@ -89,13 +94,14 @@
 <div class="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-6 py-10">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 py-10 d-flex justify-content-center">
 				<!--<div class="a-img">
 					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-eebYmIj6WJaXMivY8xbc6B9fU1xJzQKCdg&usqp=CAU" alt="" height="300" width="450">
 					<img src="https://www.intelligenthq.com/wp-content/uploads/2019/09/data-analytics.jpg" alt="" height="300" width="450" class="a-img1">
 					
 				</div>-->
-				<img src="assets/img/30262381.png" alt="" height="400" width="450">
+				<img src="https://img.freepik.com/free-vector/teamwork-concept-landing-page_52683-20165.jpg?w=740&t=st=1671429530~exp=1671430130~hmac=4741594d2c4c869b97545e54700d34a57d15a2c89800d6c449f05dc8c9a800cd" 
+				alt="" height="400" width="450" style=" padding-top: 20px; object-fit: cover;">
 				
 			</div>
 			
@@ -118,63 +124,55 @@
 	
 	<!-- ======= Start Services ======= -->
 	
-<div class="services text-light my-5 pb-5">
-	<div class="container">
-		<div class="row pt-5 ">
-			<div class="col-12 col-sm-12 col-md-6">
-				<h1 class="">SERVICES</h1>
-				<blockquote class="blockquote">
-					<p>We design transformational digital products and experiences that drive real business value and customer impact—so you can create innovative products faster and at scale.</p>
-				  </blockquote>
-			</div>
-			
+<div class="services my-5 pb-5">
+	<div class="container p-5">
+		<div class="text-center pt-5">
+				<h1 class="fw-bolder">SERVICES</h1>
+				<p class="pt-1 px-5">We design transformational digital products and experiences that drive real business value and customer impact—so you can create innovative products faster and at scale.</p>		
 		</div>
 		<div class="row py-4">
-			<div class="col-12 col-sm-12 col-md-4 col-lg-4 pt-2">
-				<div class="s-1 h-100">
-					
+			<div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-2">
+				<div class="s-1 h-100">	
 					<h3 class="fw-bolder">Business Analytics</h3>
-					<p class="pt-2">To aid corporations in making better strategic decisions using a data driven approach, a ready access to up-to-date, high quality data and analysis.Taking the guesswork out of business decisions using real metrics and insights.</p>
+					<p class="pt-4">To aid corporations in making better strategic decisions using a data driven approach, a ready access to up-to-date, high quality data and analysis.Taking the guesswork out of business decisions using real metrics and insights.</p>
 				</div>
 			</div>
-			<div class="col-12 col-sm-12 col-md-4 col-lg-4 pt-2">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-2">
 				<div class="s-1 h-100">
 					
 					
 					<h3 class="fw-bolder">Machine Learning</h3>
-					<p class="pt-2">Our machine learning consulting empowers companies to build, design, and implement AI powered solutions. We work with organizations on how to most effectively and responsibly use AI to create values.</p>
+					<p class="pt-4">Our machine learning consulting empowers companies to build, design, and implement AI powered solutions. We work with organizations on how to most effectively and responsibly use AI to create values.</p>
 				</div>
 			</div>
-			<div class="col-12 col-sm-12 col-md-4 col-lg-4 pt-2">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-2">
 				<div class="s-1 h-100">
 					
 					<h3 class="fw-bolder">Biostatistics</h3>
-					<p class="pt-2">Biostatistics plays a critical role in the planning, preparation, and execution of any clinical program. Our statistical services encompass clinical study design, complex statistical analyses for life sciences data, epidemiology & public health, survey design & analysis, and much more</p>
+					<p class="pt-4">Biostatistics plays a critical role in the planning, preparation, and execution of any clinical program. Our statistical services encompass clinical study design, complex statistical analyses for life sciences data, epidemiology & public health, survey design & analysis, and much more</p>
 				</div>
 			</div>
 			
-		</div>
-		<div class="row py-4">
-			<div class="col-12 col-sm-12 col-md-4 col-lg-4 pt-2">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-4">
 				<div class="s-1 h-100">
 					
 					<h3 class="fw-bolder">Business Analytics</h3>
-					<p class="pt-2">To aid corporations in making better strategic decisions using a data driven approach, a ready access to up-to-date, high quality data and analysis.Taking the guesswork out of business decisions using real metrics and insights.</p>
+					<p class="pt-4">To aid corporations in making better strategic decisions using a data driven approach, a ready access to up-to-date, high quality data and analysis.Taking the guesswork out of business decisions using real metrics and insights.</p>
 				</div>
 			</div>
-			<div class="col-12 col-sm-12 col-md-4 col-lg-4 pt-2">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-4">
 				<div class="s-1 h-100">
 					
 					
 					<h3 class="fw-bolder">Machine Learning</h3>
-					<p class="pt-2">Our machine learning consulting empowers companies to build, design, and implement AI powered solutions. We work with organizations on how to most effectively and responsibly use AI to create values.</p>
+					<p class="pt-4">Our machine learning consulting empowers companies to build, design, and implement AI powered solutions. We work with organizations on how to most effectively and responsibly use AI to create values.</p>
 				</div>
 			</div>
-			<div class="col-12 col-sm-12 col-md-4 col-lg-4 pt-2">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-4">
 				<div class="s-1 h-100">
 					
 					<h3 class="fw-bolder">Biostatistics</h3>
-					<p class="pt-2">Biostatistics plays a critical role in the planning, preparation, and execution of any clinical program. Our statistical services encompass clinical study design, complex statistical analyses for life sciences data, epidemiology & public health, survey design & analysis, and much more</p>
+					<p class="pt-4">Biostatistics plays a critical role in the planning, preparation, and execution of any clinical program. Our statistical services encompass clinical study design, complex statistical analyses for life sciences data, epidemiology & public health, survey design & analysis, and much more</p>
 				</div>
 			</div>
 			
@@ -218,8 +216,9 @@
 				
 			</div>
 			
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-1">
-				<img src="assets/img/8401.jpg" alt="" height="300" width="400">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5 justify-content-center d-flex">
+				<img src="assets/img/courses.webp"
+				 alt="" height="400" width="450" style="border-radius: 8px; object-fit: cover;">
 			</div>
 			
 		</div>
@@ -230,12 +229,10 @@
 	<!-- ======= End Courses ======= -->
 	
 	<!-- ======= Start Founder ======= -->
-	
+<!--
 <div class="founder my-5">
 	<div class="container py-4">
-		<div class="founder-text text-center pb-5">
-				<h1 class="fw-bolder text-light">FOUNDER</h1>
-		</div>
+		
 		
 		<div class="row py-4">
 			<div class="col-12 col-sm-12 col-md-12 col-lg-6 founder-img">
@@ -267,7 +264,39 @@
 		</div>
 	</div>	
 </div>
+-->
 	
+<div class="founder course-instructors1 py-5">
+	<div class="container">
+		<div class="row p-5 course-instructors-border">
+			<div class="founder-text text-center pb-5">
+				<h1 class="fw-bolder">FOUNDER</h1>
+			</div>
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end pb-5">
+				<img src="https://cubestatistica.com/assets/img/team/Faizan%20Khalid.jpg" alt="" 
+				height="400" width="390">
+			</div>
+			
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 px-4">
+				<p class="h4 fw-bolder">Faizan Khalid Mohsin</p>
+				<p class="course-instructors-p">Founder, CEO, and Principal Data Scientist at Cube Statistica</p>
+				<div class="social-links pb-4 ">
+					<a class="text-decoration-none fa fa-twitter text-light" href="https://twitter.com/faizankms" target="_blank"></a>
+					<a class="fa fa-github text-decoration-none text-light" href="https://github.com/FaizanKhalidMohsin" target="_blank"></a>
+					<a class="fa fa-linkedin text-decoration-none text-light" href="https://www.linkedin.com/in/faizan-khalid-mohsin/" target="_blank"></a>
+					<a class="fa fa-instagram text-decoration-none text-light" href="https://www.instagram.com/faizankhalidmohsin/" target="_blank"></a>						
+					<a class="fa fa-stack-overflow text-decoration-none text-light" href="https://stackoverflow.com/users/10975610/faizan-khalid-mohsin" target="_blank"></a>
+				</div>
+				<p>Has a Bachelor of Mathematics and Statistics and a Masters in Biostatistics, both from the University of Toronto. He also has over 6 years of experience in advanced analytics, biostatistics, and cutting-edge machine learning solutions for businesses and institutions for building production Apps using R and Shiny.</p>
+				<p>Proficient in Python and R for supervised and unsupervised learning, predictive and prescriptive modeling, deep learning, time-series analysis, survival analysis, and longitudinal analysis, as well as building dashboards using Shiny.</p>
+				<p>Great communication skills and extensive teaching experience in machine learning and statistics using R and Python.</p>
+					
+			</div>
+			
+		  </div>
+	</div>
+</div>
+
 	<!-- ======= End Founder ======= -->
 	
 	<!-- ======= Start Contact ======= -->
@@ -284,7 +313,7 @@
           </div>
         </div>
 		
-        <div class="row justify-content-between">
+        <div class="row justify-content-between p-5 contact-row">
           <div class="col-lg-6">
             <form action="#" class="form pt-5">
 
@@ -427,7 +456,12 @@
 	
 	<!-- ======= End Footer ======= -->
 	
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
