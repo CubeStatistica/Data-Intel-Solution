@@ -50,7 +50,7 @@ header .navbar li:hover{
 	border: 3px solid #414141;
 	color: #3a5fb2 !important;
 	text-align: center;
-	width: 20%;
+	width: 30%;
     transition: 0.2s cubic-bezier(0.6, -0.28, 0.74, 0.05);
 
 }
@@ -75,7 +75,7 @@ header nav .navbar-collapse ul li a{
 @media only screen and ( min-width:990px) and ( max-width:1199px){
 
 	.count1{
-		padding-bottom: 40px !important;
+		padding-bottom: 15px !important;
 	}
 
 }
