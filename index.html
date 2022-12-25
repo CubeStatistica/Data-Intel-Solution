@@ -15,8 +15,12 @@
 	<link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-
-
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style - Copy.css">
+	
 	<style>
 		body {
  			 font-family: 'Lato', sans-serif;
@@ -27,7 +31,6 @@
 <body>
 	
 	<!-- ======= Start Header ======= -->
-	
 <header class="bg-black pt-2 fixed-top">	
 	<div class="container">
 		<div class="row ">
@@ -35,39 +38,45 @@
 			<div class="">
 				<nav class="navbar navbar-expand-md navbar-light header-navbar">
 					<img class="header-img-2" src="assets/img/logo12.png" alt="" width="90" height="90">
-				  
-					<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mnav1">
-					  <span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="mnav1">
+					
+					
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-							  <a class="nav-link active" href="index.html">Home</a>
+								<a class="nav-link active" href="index.html">Home</a>
 							</li>
 							<li class="nav-item">
-							  <a class="nav-link" href="#">About</a>
+								<a class="nav-link" href="#">About</a>
 							</li>
 							<li class="nav-item">
-							  <a class="nav-link" href="#">Services</a>
+								<a class="nav-link" href="#">Services</a>
+							</li>
+							
+							<li class="nav-item dropdown" style="border: none;">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Courses
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="Data-Science-course.html">Data Science Course</a>
+								<a class="dropdown-item" href="Python-course.html">Python Course</a>
+								</div>
 							</li>
 							<li class="nav-item">
-							  <a class="nav-link" href="course.html">Courses</a>
+								<a class="nav-link" href="blogs.html">Blogs</a>
 							</li>
-							<li class="nav-item">
-							  <a class="nav-link" href="blogs.html">Blog</a>
-							</li>
-							  <li class="nav-item">
-							  <a class="nav-link" href="#">Contact</a>
+								<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
 							</li>  
-						  </ul>
+							</ul>
 					</div>
 				</nav>
 			</div>
 		</div>
 	</div>
-	
 </header>
-	
 	<!-- ======= End Header ======= -->
 	
 	<!-- ======= Start Banner ======= -->
@@ -75,11 +84,11 @@
 <div class="banner h-100 w-100">
 	
 	<video autoplay muted loop id="myVideo" class="w-100">
-		<source src="assets/img/Digital - 55202.mp4" type="video/mp4">
+		<source src="assets/img/Data Science background Video.mp4" type="video/mp4">
 	</video>
 	<div class="container banner-content w-75">
 		<p class="h5">Our services are defined by quality and commitment</p>
-		<h1 class="display-5 fw-bolder">We are at the forefront of the technology</h1>
+		<h1 class="display-3 fw-bolder">We are at the forefront of the technology</h1>
 		
 	</div>
 	
@@ -94,14 +103,14 @@
 <div class="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-6 py-10 d-flex justify-content-center">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 py-10 d-flex justify-content-center px-2">
 				<!--<div class="a-img">
 					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-eebYmIj6WJaXMivY8xbc6B9fU1xJzQKCdg&usqp=CAU" alt="" height="300" width="450">
 					<img src="https://www.intelligenthq.com/wp-content/uploads/2019/09/data-analytics.jpg" alt="" height="300" width="450" class="a-img1">
 					
 				</div>-->
 				<img src="https://img.freepik.com/free-vector/teamwork-concept-landing-page_52683-20165.jpg?w=740&t=st=1671429530~exp=1671430130~hmac=4741594d2c4c869b97545e54700d34a57d15a2c89800d6c449f05dc8c9a800cd" 
-				alt="" height="400" width="450" style=" padding-top: 20px; object-fit: cover;">
+				alt="" style="width: 400px !important; height: 350px !important;">
 				
 			</div>
 			
@@ -186,45 +195,80 @@
 	<!-- ======= End Services ======= -->
 	
 	<!-- ======= Start Courses ======= -->
-	
-<div class="couse my-5">
-	<div class="container">
-		<div class="couse-text text-center">
-				<h1 class="fw-bolder">COURSES</h1>				
-		</div>
-		<div class="row py-4">			
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-1">
-				<div class="pr-5">
-					<p class="pt-5 fw-bolder h3">Professional Training for Machine Learning and Data Science</p>
-					<p>The course teaches students essential skills in Machine Learning and Data Science and combines the academic approach with practical applications. It is specifically designed for a professional work environment, providing practical machine learning training and teaching a professional Data Science software development workflow cycle.</p>
-					<p>
-						Ensuring that students have the requisite skills, knowledge and are ready to work in a modern work environment from the first day of course completion. The course will utilize both R and Python in order to provide comprehensive skills.
-					</p>
-					<div class="buttons">
 
-						<div class="action_btn">
-			
-						<button class="btn btn-outline-black">Enroll Now</button>
-						<button class="btn btn-outline-grey">Read More</button>
-			
-							
-						</div>
-			
+<div class="couse my-5">
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 ">
+					<div class="couse-text text-center">
+						<h1 class="fw-bolder">COURSES</h1>				
 					</div>
-											
 				</div>
-				
+				<div class="col-md-12">
+					<div class="featured-carousel owl-carousel">
+						<div class="item">
+							<div class="row justify-content-center">
+								<div class="col-md-11">
+									<div class="testimony-wrap d-md-flex">
+										<div class="img" style="background-image: url(assets/img/courses.webp);"></div>
+										<div class="text text-center p-4 py-xl-5 px-xl-5 d-flex align-items-center">
+											<div class="desc w-100">
+												<p class="h3">Professional Training Course in Machine Learning & Data Science</p>
+												<div class="pt-4">
+													<p class=" mb-0">The course teaches students essential skills in Machine Learning and Data Science and combines the academic approach with practical applications. It is specifically designed for a professional work environment, providing practical machine learning training and teaching a professional Data Science software development workflow cycle.</p>
+													<p class=" mb-0">Ensuring that students have the requisite skills, knowledge and are ready to work in a modern work environment from the first day of course completion. The course will utilize both R and Python in order to provide comprehensive skills.</p>
+													<div class="buttons">
+														<div class="action_btn">
+															<a href=""><button class="mt-4 btn btn-outline-black">Enroll Now</button></a>
+															<a href="Data-Science-course.html" target="_blank"><button class="mt-4 btn btn-outline-grey">Read More</button></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row justify-content-center">
+								<div class="col-md-11">
+									<div class="testimony-wrap d-md-flex">
+										<div class="img" style="background-image: url(assets/img/courses-2.jpg);"></div>
+										<div class="text text-center p-4 py-xl-5 px-xl-5 d-flex align-items-center">
+											<div class="desc w-100">
+												<p class="h3">Professional Training for Data Science using SQL, Python, Tableau, & GitHub.</p>
+												<div class="pt-4">
+													<p class=" mb-0">The course teaches students essential skills in Machine Learning and Data Science and combines the academic approach with practical applications. It is specifically designed for a professional work environment, providing practical machine learning training and teaching a professional Data Science software development workflow cycle.</p>
+													<p class=" mb-0">Ensuring that students have the requisite skills, knowledge and are ready to work in a modern work environment from the first day of course completion. The course will utilize both R and Python in order to provide comprehensive skills.</p>
+													<div class="buttons">
+														<div class="action_btn">
+															<a href=""><button class="mt-4 btn btn-outline-black">Enroll Now</button></a>
+															<a href="Python-course.html" target="_blank"><button class="mt-4 btn btn-outline-grey">Read More</button></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5 justify-content-center d-flex">
-				<img src="assets/img/courses.webp"
-				 alt="" height="380" width="400" style="border-radius: 8px; object-fit: cover;">
-			</div>
-			
 		</div>
-		
-	</div>	
-</div>
+	</section>	
+
+
+
+
+
+
+</div>	  
+
+
 	
 	<!-- ======= End Courses ======= -->
 	
@@ -461,7 +505,13 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>
