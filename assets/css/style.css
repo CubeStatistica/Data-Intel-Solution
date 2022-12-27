@@ -327,10 +327,10 @@ header nav .navbar-collapse ul li a{
 .course-instructors-border img{
 	box-shadow: -20px -20px 0px 0px whitesmoke !important;
 }
-.course-instructors1{
-    transform: skewY(6deg);
+.founder{
+    transform: skewY(6deg) !important;
 }
-.course-instructors1 .container{
+.founder .container{
 	
     transform: skewY(-6deg);
 }
