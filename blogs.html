@@ -30,19 +30,6 @@
         }
     </style>
     
-    
-    <script type="text/javascript">
-       $(function () {
-           $(document).click(function (event) {
-               var clickover = $(event.target);
-               var _opened = $(".navbar-collapse").hasClass("navbar-collapse collapse show");
-               if (_opened === true && !clickover.hasClass("navbar-toggler")) {
-                   $("button.navbar-toggler").click();
-               }
-           });
-       });
-
-    </script>
 </head>
 
 <body>
@@ -98,7 +85,7 @@
 
 <!-- ======= Start Blog ======= -->
 
-<div class="blog">
+<div class="blog" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
 	<div class="container p-5">
 		<p><span><a href="index.html" class="text-decoration-none text-dark">Home</a></span>
             <b>&nbsp;&nbsp;/&nbsp;&nbsp;</b>
@@ -116,7 +103,7 @@
     <div class="container">
         <div class="row ">
     
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 pb-3 pt-5">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 pb-3 pt-5" data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-sine">
                 <div id="myBtnContainer" class="position-sticky">
                     <button class="btn btn-outline-black my-2" onclick="filterSelection('all')"> Show all</button><br>
                     <button class="btn btn-outline-black my-2" onclick="filterSelection('Travel')"> Travel</button><br>
@@ -129,7 +116,8 @@
             <div class="col-12 col-sm-12 col-md-10 col-lg-10 pt-5 pb-3">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Business">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Business"
+                        data-aos="zoom-in-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
                             <a href="#" class="text-decoration-none w-75">
                                 <div class="blog-tag m-2 py-1 px-2">Business</div>
                                 <div class="filterDiv-img">
@@ -149,7 +137,8 @@
                                 &nbsp;&nbsp;Faizan Khalid Mohsin
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Travel">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Travel"
+                        data-aos="zoom-in-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
                             <a href="#" class="text-decoration-none">
                                 <div class="blog-tag m-2 py-1 px-2">Travel</div>
                                 <div class="filterDiv-img">
@@ -169,7 +158,8 @@
                                 &nbsp;&nbsp;Zobia Ali Soomro
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Tech Sport">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Tech Sport"
+                        data-aos="zoom-in-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
                             <a href="#" class="text-decoration-none">
                                 <div class="blog-tag m-2 py-1 px-2">Tech & Sport</div>
                                 <div class="filterDiv-img">
@@ -190,7 +180,8 @@
                                 &nbsp;&nbsp;Zobia Ali Soomro
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Sport">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Sport"
+                        data-aos="zoom-in-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
                             <a href="#" class="text-decoration-none">
                                 <div class="blog-tag m-2 py-1 px-2">Sport</div>
                                 <div class="filterDiv-img">
@@ -210,7 +201,8 @@
                                 &nbsp;&nbsp;Faizan Khalid Mohsin
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Business ">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Business"
+                        data-aos="zoom-in-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
                             <a href="#" class="text-decoration-none">
                                 <div class="blog-tag m-2 py-1 px-2">Business</div>
                                 <div class="filterDiv-img">
@@ -230,7 +222,8 @@
                                 &nbsp;&nbsp;Faizan Khalid Mohsin
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Tech">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 filterDiv Tech"
+                        data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
                             <a href="#" class="text-decoration-none">
                                 <div class="blog-tag m-2 py-1 px-2">Tech</div>
                                 <div class="filterDiv-img">
@@ -260,7 +253,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- ======= End Blog-Contant ======= -->
 
 <!-- ======= Start Blog-Join ======= -->
@@ -286,9 +279,9 @@
 
 <!-- ======= Start Blog-Team ======= -->
 
-<div class="blog-team py-5">
+<div class="blog-team py-5" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
     <div class="container">
-        <h1 class="text-center fw-bolder">Meet our team of authors</h1>
+        <h1 class="text-center fw-bolder" >Meet our team of authors</h1>
         <div class="row py-5 text-center">
             <div class="col-12 col-sm-6 col-md-3 col-lg-3 blog-team-1">
                 <img src="assets/img/team/Faizan Khalid.jpg"
@@ -415,6 +408,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+		AOS.init({});
+	  </script>
 
 </body>
 </html>

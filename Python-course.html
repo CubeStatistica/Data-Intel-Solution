@@ -8,15 +8,14 @@
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta name="author" content="John Doe">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-	
-	
+
   	<!-- Vertical tabs CSS -->
  	<link rel="stylesheet" href="assets/css/b5vtabs.min.css" />
 	<style>
@@ -32,7 +31,6 @@
 <header class="bg-black pt-2 fixed-top">	
 	<div class="container">
 		<div class="row ">
-			
 			<div class="">
 				<nav class="navbar navbar-expand-md navbar-light header-navbar">
 					<img class="header-img-2" src="assets/img/logo12.png" alt="" width="90" height="90">
@@ -52,15 +50,16 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#">Services</a>
 							</li>
+							
 							<li class="nav-item dropdown"  style="border: none;">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Courses
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="Data-Science-course.html">Data Science Course</a>
-								<a class="dropdown-item" href="Python-course.html">Python Course</a>
+								  <a class="dropdown-item" href="Data-Science-course.html">Data Science Course</a>
+								  <a class="dropdown-item" href="Python-course.html">Python Course</a>
 								</div>
-							</li>
+							  </li>
 							<li class="nav-item">
 								<a class="nav-link" href="blogs.html">Blogs</a>
 							</li>
@@ -80,8 +79,9 @@
 
 <div class="course-pg">
 	<div class="container">
-		<div class="row">
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="row" style="overflow-x: hidden">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 aos-init aos-animate" 
+			data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="intro p-5">
 					<p><span><a href="index.html" class="text-decoration-none text-dark">Home</a></span>
 						<b>&nbsp;&nbsp;/&nbsp;&nbsp;</b>
@@ -106,7 +106,8 @@
 				</div>
 			</div>
 			
-			<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 aos-init aos-animate"
+			 data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="intro-img">
 					<img src="assets/img/Python-Course.jpg" 
 					alt="" width="350" height="320">
@@ -118,10 +119,9 @@
 
 <!-- ======= End course ======= -->
 
-<!-- ======= Start Course-Internship 
+<!-- ======= Start Course-Internship ======= -->
 
-
-<div class="course-offer py-5">
+<!--<div class="course-offer py-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5">
@@ -129,18 +129,7 @@
 				<p class="pt-4 h5">Best Performers will get a chance to do a 3-month internship at 
 					Cube Statistica, potentially leading to permenant position.</p>
 				
-				<div class="row">
-					<div class="col-8 col-sm-8 col-md-8 col-lg-8 course-offer-time px-5 py-3">
-						<span id="demo" class="fw-bolder h1 course-offer-time-1"></span>
-
-						<br>
-						
-							
-					</div>
-					<div class="pt-4 pb-3">
-						<button class="btn btn-outline-black p-3">Enroll Now</button>
-					</div>
-				</div>
+			
 				<div class="pt-4 pb-3">
 						<button class="btn btn-outline-black p-3">Enroll Now</button>
 					</div>
@@ -155,6 +144,7 @@
 		</div>
 	</div>
 </div>
+-->
 
 <!-- ======= End Course-Internship ======= -->
 
@@ -163,8 +153,9 @@
 		
 <div class="course-pg-1 p-5">
 	<div class="container">
-		<div class="row">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center course-pg-intro">
+		<div class="row" style="overflow-x: hidden">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center course-pg-intro aos-init aos-animate"
+			  data-aos="fade-right" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<h1 class="fw-bolder pt-3">What You will Learn</h1>
 				<ul class="list-group pt-4">
 					<li class="list-group-item"><i class="bi bi-caret-right-fill pl-5"></i>
@@ -181,7 +172,8 @@
 			
 			
 			
-			<div class="col-12 col-sm-12 col-md-12 col-lg-3 pt-4">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-3 pt-4 aos-init aos-animate" 
+			data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="course-pg-intro1 py-5 px-3 h-100">
 					<i class="bi bi-display px-3"></i>
 					<h3 class="px-3 fw-bolder">Course Format</h3>
@@ -198,7 +190,8 @@
 				</div>
 			</div>
 			
-			<div class="col-12 col-sm-12 col-md-12 col-lg-3 pt-4">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-3 pt-4 aos-init aos-animate" 
+			data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="course-pg-intro1 py-5 px-3 h-100">
 					<i class="bi bi-calendar-check-fill px-3"></i>
 					<h3 class="px-2 fw-bolder">Duration Course</h3>
@@ -221,7 +214,7 @@
 
 <!-- ======= Start Course-Details ======= -->
 
-<div class="course-details pb-5">
+<div class="course-details pb-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
 	<div class="container vtabs px-4 pb-4">
 		<h1 class="fw-bolder py-4">Professional Training for Data Science using SQL, Python, Tableau, & GitHub.</h1>
 		<p>Data science has emerged as one of the most essential and popular fields of the 21st century. 
@@ -247,200 +240,199 @@
 		
 		<h1 class="py-5 fw-bolder">Course Content</h1>
 		<div class="row">
-		<!-- Tabs -->
-			<div class="col-md-3">
-				<ul class="nav nav-tabs left-tabs" role="tablist">
-				<li class="nav-item" role="presentation">
-					<div id="Week1-left-tab" class="nav-link tab-clickable active text-uppercase fw-bolder h5" role="tab" 
-					data-bs-toggle="tab" data-bs-target="#Week1-left" aria-controls="Week1-left" aria-selected="true">
-					Week 1  
+			<!-- Tabs -->
+				<div class="col-md-3">
+					<ul class="nav nav-tabs left-tabs" role="tablist">
+					<li class="nav-item" role="presentation">
+						<div id="Week1-left-tab" class="nav-link tab-clickable active text-uppercase fw-bolder h5" role="tab" 
+						data-bs-toggle="tab" data-bs-target="#Week1-left" aria-controls="Week1-left" aria-selected="true">
+						Week 1  
+						</div>
+					</li>
+					<li class="nav-item" role="presentation">
+						<div id="Week2-left-tab" class="nav-link tab-clickable h5 text-uppercase fw-bolder" 
+						role="tab" data-bs-toggle="tab" data-bs-target="#Week2-left" aria-controls="Week2-left" aria-selected="false">
+						Week 2
+						</div>
+					</li>
+					<li class="nav-item" role="presentation">
+						<div id="Week3-left-tab" class="nav-link h5 tab-clickable text-uppercase fw-bolder" role="tab" title="" 
+						data-bs-toggle="tab" data-bs-target="#Week3-left" aria-controls="Week3-left" aria-selected="false">
+						Week 3
+						</div>
+					</li>
+					<li class="nav-item" role="presentation">
+						<div id="Week4-left-tab" class="nav-link tab-clickable text-uppercase fw-bolder h5" role="tab" 
+						data-bs-toggle="tab" data-bs-target="#Week4-left" aria-controls="Week4-left" aria-selected="true">
+						Week 4
+						</div>
+					</li>
+					<li class="nav-item" role="presentation">
+						<div id="Week5-left-tab" class="nav-link tab-clickable h5 text-uppercase fw-bolder" 
+						role="tab" data-bs-toggle="tab" data-bs-target="#Week5-left" aria-controls="Week5-left" aria-selected="false">
+						Week 5
+						</div>
+					</li>
+					<li class="nav-item" role="presentation">
+						<div id="Week6-left-tab" class="nav-link tab-clickable text-uppercase fw-bolder h5" role="tab" 
+						data-bs-toggle="tab" data-bs-target="#Week6-left" aria-controls="Week6-left" aria-selected="true">
+						Week 6  
+						</div>
+					</li>
+					
+					
+					</ul>
+				</div>
+	
+				<!-- Tab contents -->
+			<div class="col-md-9 pb-3 px-4">
+				<div class="container">
+					<div id="accordion-left-tabs" class="tab-content accordion">
+						<!-- Individual tab panels -->
+						<!-- tab-pane must be a child of tab-content -->
+						<div id="Week1-left" class="tab-pane fade show active accordion-item" role="tabpanel">
+						<div class="accordion-header" role="tab">
+							<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
+							data-bs-target="#Week1-left-article" aria-expanded="true" aria-controls="Week1-left-article">Introduction to Software Stack</button>
+						</div>
+						<article id="Week1-left-article" class="accordion-body accordion-collapse collapse"
+							data-bs-parent="#accordion-left-tabs" aria-labelledby="Week1-left-tab">
+							<h1 class="fw-bolder">Introduction to Software Stack</h1>
+							<p class="h5">Creating Professional GitHub, Jira, and Slack Accounts</p>
+							<section>
+								<ul>
+									<li>Intro to Git and GitHub</li>
+									<li>Intro to Stackoverflow</li>
+									<li>Intro to Jira / GitHub Projects</li>
+									<li>Project Management</li>
+									<li>Scrum Principles</li>
+									<li>Folder Structuring</li>
+									<li>Install and Setup R &amp; Python</li>
+								</ul>
+							</section>
+						</article>
+						</div>
+	
+						<div id="Week2-left" class="tab-pane fade accordion-item" role="tabpanel">
+						<div class="accordion-header" role="tab">
+							<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#Week2-left-article" aria-expanded="false" aria-controls="Week2-left-article">
+								Dashboarding and Exploratory Data Analysis 
+							</button>
+						</div>
+	
+						<article id="Week2-left-article" class="accordion-body accordion-collapse collapse" data-bs-parent="#accordion-left-tabs" aria-labelledby="Week2-left-tab">
+							<h1 class="fw-bolder"> Introduction to Software Development </h1>
+							<p class="h5">Software &amp; App Development</p>
+							<section>
+								<ul>
+									<li>Linux, Git Bash, Git Pull Requests</li>
+									<li>R commands &amp; Personalizing R</li>
+									<li>R Mardown (+ running script)</li>
+									<li>Flexdashboard Intro and in Action</li>
+									<li>Dashboard Principles, Creation &amp; Deployment</li>
+									<li>Running Python in RStudio IDE</li>
+								</ul>
+							</section>
+						</article>
+						</div>
+	
+						<div id="Week3-left" class="tab-pane fade accordion-item" role="tabpanel">
+						<div class="accordion-header" role="tab">
+							<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#Week3-left-article" aria-expanded="false" aria-controls="Week3-left-article">
+							Dashboarding and Exploratory Data Analysis
+							</button>
+						</div>
+						<article id="Week3-left-article" class="accordion-body accordion-collapse collapse" data-bs-parent="#accordion-left-tabs" aria-labelledby="Week3-left-tab">
+							<h1 class="fw-bolder">Dashboarding and Exploratory Data Analysis</h1>
+							<p class="h5">Power BI, Data cleansing, and EDA</p>
+							<section>
+								<ul>
+									<li>Power BI Dashboarding</li>
+									<li>Dealing with Missing Values</li>
+									<li>Outlier Detection</li>
+									<li>Manipulating &amp; Grouping Data</li>
+									<li>Plotly, ggplot Visualizations</li>
+									<li>Data Cleaning</li>
+									<li>Create EDA Report</li>
+									<li>Make EDA Live App</li>
+								</ul>
+							</section>
+						</article>
+						</div>
+	
+						<div id="Week4-left" class="tab-pane fade show accordion-item" role="tabpanel">
+							<div class="accordion-header" role="tab">
+								<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
+								data-bs-target="#Week4-left-article" aria-expanded="true" aria-controls="Week4-left-article">
+								Machine Learning Algorithms and Applications</button>
+							</div>
+							<article id="Week4-left-article" class="accordion-body accordion-collapse collapse"
+								data-bs-parent="#accordion-left-tabs" aria-labelledby="Week4-left-tab">
+								<h1 class="fw-bolder">Machine Learning Algorithms and Applications</h1>
+								<p class="h5"></p>
+								<section>
+									<ul>
+										<li>Prediction vs. Inference</li>
+										<li>Training, Testing, and Validation data sets</li>
+										<li>Linear Regression</li>
+										<li>Logistic Regression</li>
+										<li>Forcasting and Predition</li>
+										<li>Model Assessment / Evaluation</li>
+										<li>Deploy ML models in Live App</li>
+									</ul>
+								</section>
+							</article>
+						</div>
+	
+						<div id="Week5-left" class="tab-pane fade show accordion-item" role="tabpanel">
+							<div class="accordion-header" role="tab">
+								<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
+								data-bs-target="#Week5-left-article" aria-expanded="true" aria-controls="Week5-left-article">
+								Dashboard in Action Part 1</button>
+							</div>
+							<article id="Week5-left-article" class="accordion-body accordion-collapse collapse"
+								data-bs-parent="#accordion-left-tabs" aria-labelledby="Week5-left-tab">
+								<h1 class="fw-bolder"> Dashboard in Action Part 1 </h1>
+								<p class="h5">Advanced Machine Learning and App Development</p>
+								<section>
+									<ul>
+										<li>Model Overfitting and Data Leakage</li>
+										<li>Decision Trees</li>
+										<li>Random Forest</li>
+										<li>XGBoost</li>
+										<li>Data Science Pipeline</li>
+										<li>Common ML Algo Pitfalls</li>
+									</ul>
+								</section>
+							</article>
+						</div>
+	
+						<div id="Week6-left" class="tab-pane fade show accordion-item" role="tabpanel">
+							<div class="accordion-header" role="tab">
+								<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
+								data-bs-target="#Week6-left-article" aria-expanded="true" aria-controls="Week6-left-article">
+								Dashboard in Action Part 2 </button>
+							</div>
+							<article id="Week6-left-article" class="accordion-body accordion-collapse collapse"
+								data-bs-parent="#accordion-left-tabs" aria-labelledby="Week6-left-tab">
+								<h1 class="fw-bolder"> Dashboard in Action Part 2 </h1>
+								<p class="h5">App Deployment &amp; Presentations</p>
+								<section>
+									<ul>
+										<li>Custom Stylizing Using css</li>
+										<li>Shiny Modules</li>
+										<li>Studnet Presentations</li>
+									</ul>
+								</section>
+							</article>
+						</div>
+	
+							
+	
+					  </div>
 					</div>
-				</li>
-				<li class="nav-item" role="presentation">
-					<div id="Week2-left-tab" class="nav-link tab-clickable h5 text-uppercase fw-bolder" 
-					role="tab" data-bs-toggle="tab" data-bs-target="#Week2-left" aria-controls="Week2-left" aria-selected="false">
-					Week 2
-					</div>
-				</li>
-				<li class="nav-item" role="presentation">
-					<div id="Week3-left-tab" class="nav-link h5 tab-clickable text-uppercase fw-bolder" role="tab" title="" 
-					data-bs-toggle="tab" data-bs-target="#Week3-left" aria-controls="Week3-left" aria-selected="false">
-					Week 3
-					</div>
-				</li>
-				<li class="nav-item" role="presentation">
-					<div id="Week4-left-tab" class="nav-link tab-clickable text-uppercase fw-bolder h5" role="tab" 
-					data-bs-toggle="tab" data-bs-target="#Week4-left" aria-controls="Week4-left" aria-selected="true">
-					Week 4
-					</div>
-				</li>
-				<li class="nav-item" role="presentation">
-					<div id="Week5-left-tab" class="nav-link tab-clickable h5 text-uppercase fw-bolder" 
-					role="tab" data-bs-toggle="tab" data-bs-target="#Week5-left" aria-controls="Week5-left" aria-selected="false">
-					Week 5
-					</div>
-				</li>
-				<li class="nav-item" role="presentation">
-					<div id="Week6-left-tab" class="nav-link tab-clickable text-uppercase fw-bolder h5" role="tab" 
-					data-bs-toggle="tab" data-bs-target="#Week6-left" aria-controls="Week6-left" aria-selected="true">
-					Week 6  
-					</div>
-				</li>
-				
-				
-				</ul>
+				</div>
 			</div>
-
-			<!-- Tab contents -->
-		<div class="col-md-9 pb-3 px-4">
-			<div class="container">
-				<div id="accordion-left-tabs" class="tab-content accordion">
-					<!-- Individual tab panels -->
-					<!-- tab-pane must be a child of tab-content -->
-					<div id="Week1-left" class="tab-pane fade show active accordion-item" role="tabpanel">
-					<div class="accordion-header" role="tab">
-						<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
-						data-bs-target="#Week1-left-article" aria-expanded="true" aria-controls="Week1-left-article">Introduction to Software Stack</button>
-					</div>
-					<article id="Week1-left-article" class="accordion-body accordion-collapse collapse"
-						data-bs-parent="#accordion-left-tabs" aria-labelledby="Week1-left-tab">
-						<h1 class="fw-bolder">Introduction to Software Stack</h1>
-						<p class="h5">Creating Professional GitHub, Jira, and Slack Accounts</p>
-						<section>
-							<ul>
-								<li>Intro to Git and GitHub</li>
-								<li>Intro to Stackoverflow</li>
-								<li>Intro to Jira / GitHub Projects</li>
-								<li>Project Management</li>
-								<li>Scrum Principles</li>
-								<li>Folder Structuring</li>
-								<li>Install and Setup R &amp; Python</li>
-							</ul>
-						</section>
-					</article>
-					</div>
-
-					<div id="Week2-left" class="tab-pane fade accordion-item" role="tabpanel">
-					<div class="accordion-header" role="tab">
-						<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#Week2-left-article" aria-expanded="false" aria-controls="Week2-left-article">
-							Dashboarding and Exploratory Data Analysis 
-						</button>
-					</div>
-
-					<article id="Week2-left-article" class="accordion-body accordion-collapse collapse" data-bs-parent="#accordion-left-tabs" aria-labelledby="Week2-left-tab">
-						<h1 class="fw-bolder"> Introduction to Software Development </h1>
-						<p class="h5">Software &amp; App Development</p>
-						<section>
-							<ul>
-								<li>Linux, Git Bash, Git Pull Requests</li>
-								<li>R commands &amp; Personalizing R</li>
-								<li>R Mardown (+ running script)</li>
-								<li>Flexdashboard Intro and in Action</li>
-								<li>Dashboard Principles, Creation &amp; Deployment</li>
-								<li>Running Python in RStudio IDE</li>
-							</ul>
-						</section>
-					</article>
-					</div>
-
-					<div id="Week3-left" class="tab-pane fade accordion-item" role="tabpanel">
-					<div class="accordion-header" role="tab">
-						<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#Week3-left-article" aria-expanded="false" aria-controls="Week3-left-article">
-						Dashboarding and Exploratory Data Analysis
-						</button>
-					</div>
-					<article id="Week3-left-article" class="accordion-body accordion-collapse collapse" data-bs-parent="#accordion-left-tabs" aria-labelledby="Week3-left-tab">
-						<h1 class="fw-bolder">Dashboarding and Exploratory Data Analysis</h1>
-						<p class="h5">Power BI, Data cleansing, and EDA</p>
-						<section>
-							<ul>
-								<li>Power BI Dashboarding</li>
-								<li>Dealing with Missing Values</li>
-								<li>Outlier Detection</li>
-								<li>Manipulating &amp; Grouping Data</li>
-								<li>Plotly, ggplot Visualizations</li>
-								<li>Data Cleaning</li>
-								<li>Create EDA Report</li>
-								<li>Make EDA Live App</li>
-							</ul>
-						</section>
-					</article>
-					</div>
-
-					<div id="Week4-left" class="tab-pane fade show accordion-item" role="tabpanel">
-						<div class="accordion-header" role="tab">
-							<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
-							data-bs-target="#Week4-left-article" aria-expanded="true" aria-controls="Week4-left-article">
-							Machine Learning Algorithms and Applications</button>
-						</div>
-						<article id="Week4-left-article" class="accordion-body accordion-collapse collapse"
-							data-bs-parent="#accordion-left-tabs" aria-labelledby="Week4-left-tab">
-							<h1 class="fw-bolder">Machine Learning Algorithms and Applications</h1>
-							<p class="h5"></p>
-							<section>
-								<ul>
-									<li>Prediction vs. Inference</li>
-									<li>Training, Testing, and Validation data sets</li>
-									<li>Linear Regression</li>
-									<li>Logistic Regression</li>
-									<li>Forcasting and Predition</li>
-									<li>Model Assessment / Evaluation</li>
-									<li>Deploy ML models in Live App</li>
-								</ul>
-							</section>
-						</article>
-					</div>
-
-					<div id="Week5-left" class="tab-pane fade show accordion-item" role="tabpanel">
-						<div class="accordion-header" role="tab">
-							<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
-							data-bs-target="#Week5-left-article" aria-expanded="true" aria-controls="Week5-left-article">
-							Dashboard in Action Part 1</button>
-						</div>
-						<article id="Week5-left-article" class="accordion-body accordion-collapse collapse"
-							data-bs-parent="#accordion-left-tabs" aria-labelledby="Week5-left-tab">
-							<h1 class="fw-bolder"> Dashboard in Action Part 1 </h1>
-							<p class="h5">Advanced Machine Learning and App Development</p>
-							<section>
-								<ul>
-									<li>Model Overfitting and Data Leakage</li>
-									<li>Decision Trees</li>
-									<li>Random Forest</li>
-									<li>XGBoost</li>
-									<li>Data Science Pipeline</li>
-									<li>Common ML Algo Pitfalls</li>
-								</ul>
-							</section>
-						</article>
-					</div>
-
-					<div id="Week6-left" class="tab-pane fade show accordion-item" role="tabpanel">
-						<div class="accordion-header" role="tab">
-							<button class="accordion-button collapsed" type="button" role="button" data-bs-toggle="collapse" 
-							data-bs-target="#Week6-left-article" aria-expanded="true" aria-controls="Week6-left-article">
-							Dashboard in Action Part 2 </button>
-						</div>
-						<article id="Week6-left-article" class="accordion-body accordion-collapse collapse"
-							data-bs-parent="#accordion-left-tabs" aria-labelledby="Week6-left-tab">
-							<h1 class="fw-bolder"> Dashboard in Action Part 2 </h1>
-							<p class="h5">App Deployment &amp; Presentations</p>
-							<section>
-								<ul>
-									<li>Custom Stylizing Using css</li>
-                                    <li>Shiny Modules</li>
-                                    <li>Studnet Presentations</li>
-								</ul>
-							</section>
-						</article>
-					</div>
-
-						
-
-				  </div>
-			    </div>
-			</div>
-		</div>
-
 		<h1 class="pt-5 pb-3 fw-bolder">Audience.</h1>
 		<h5><i class="bi bi-asterisk text-primary me-3"></i>Graduates & Undergraduates with Business, Computer Science and Engineering backgrounds.</h5>
 		<h5><i class="bi bi-asterisk text-primary me-3"></i>Professionals working in the industry looking to switch to Data Science or learn the best practices 
@@ -456,8 +448,7 @@
 <!-- ======= Start Course-Instructors ======= -->
 
 <div class="course-instructors1 py-5">
-	<div class="container">
-		
+	<div class="container aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
 		<div class="row">
 			<div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-end">
 				<img src="https://cubestatistica.com/assets/img/team/Faizan%20Khalid.jpg" alt="" 
@@ -506,13 +497,13 @@
 <!-- ======= Start TEACHING ASSISTANTS ======= -->
 
 
-<div class="course-instructors py-5">
+<div class="course-instructors py-5 aos-init aos-animate">
 	<div class="container">
-		<h1 class="py-5 fw-bolder">TEACHING ASSISTANTS</h1>
+		<h1 class="py-5 fw-bolder text-center" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">TEACHING ASSISTANTS</h1>
 		<div class="row">
 			
 			<div class="col-12 col-sm-12 col-md-1 col-lg-1"></div>
-			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pb-3">
+			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pb-3" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="team px-3 py-4 text-center ">
 					<img class="" src="assets/img/team/urooj.jpg"
 					 alt="" width="250" height="230">
@@ -527,7 +518,7 @@
 				</div>
 			</div>
 				
-			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pb-3">
+			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pb-3" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="team px-3 py-4 text-center">
 					<img class="" src="assets/img/team/suneeta.jpeg" alt="" width="250" height="230">
 					<p class="h5 fw-bolder pt-3">Suneeta Devi</p>
@@ -545,7 +536,7 @@
 			
 			<div class="col-12 col-sm-12 col-md-1 col-lg-1"></div>
 			
-			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pt-3">
+			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pt-3" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="team px-3 py-4 text-center">
 					<img class="" src="assets/img/team/zobia.jpeg" alt="" width="250" height="230">
 					<p class="h5 fw-bolder pt-3">Zobia Ali Soomro</p>
@@ -559,7 +550,7 @@
 				</div>
 			</div>
 			
-			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pt-3">
+			<div class="col-12 col-sm-12 col-md-5 col-lg-5 pt-3" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-sine">
 				<div class="team px-3 py-4 text-center">
 					<img class="" src="assets/img/team/javera.jpeg" alt="" width="250" height="230">
 					<p class="h5 fw-bolder pt-3">Javaria Qayyum</p>
@@ -649,15 +640,17 @@
 	
 	<!-- ======= End Footer ======= -->
 
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
 	<script src="assets/js/script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-  
-
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script>
+		AOS.init({});
+	  </script>
 </body>
 </html>
