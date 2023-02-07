@@ -61,7 +61,7 @@ header nav .navbar-collapse ul li a{
 @media only screen and ( min-width:1401px) and ( max-width:2500px){
 
 	header nav .navbar-collapse ul {
-		padding-left:40em;
+		padding-left:38em;
 	}
 }
 @media only screen and ( min-width:992px) and ( max-width:1400px){
@@ -88,7 +88,7 @@ header nav .navbar-collapse ul li a{
 @media only screen and ( min-width:767px) and ( max-width:839px){
 
 	.header-img-2{
-		margin-left: -30px !important;
+		margin-left: -47px !important;
 	}
 }
 .navbar-toggler {
