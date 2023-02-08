@@ -108,7 +108,18 @@ header nav .navbar-collapse ul li a{
     border-radius: 10px !important;
 }
 
-/*wave*/
+img#logo {
+	animation: rotate-clockwise 5s linear infinite;
+  }
+  
+  @keyframes rotate-clockwise {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
 
 /*banner*/
 .banner{
